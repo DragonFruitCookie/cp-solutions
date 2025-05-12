@@ -1,1 +1,2 @@
-cp-solutions
+Solutions of all competitive coding contests
+
