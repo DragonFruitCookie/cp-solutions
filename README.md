@@ -1,2 +1,2 @@
-Solutions of all competitive coding contests
+Solutions of all competitive programming contests
 
