@@ -3,20 +3,21 @@
 
 using namespace std;
 
-int main()
-{
-int n, x(0);
-cin >> n;
-
-string s;
-while (n--)
-{
-cin >> s;
-if (s[1] == '+') ++x;
-else --x;
-  //middle charater will always be an poperator
+int main(){
+    
+    int n, x(0);
+    cin >> n;
+    
+    string s;
+    
+    while (n--) {
+        cin >> s;
+        if (s[1] == '+') ++x;
+        else --x;
+    }
+    
+    cout << x << endl;
+    return 0;
 }
 
-cout << x << endl;
-return 0;
-}
+//Hint: middle charater will always be an operator
